@@ -17,12 +17,57 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
         setupHeaders()
         setupViews()
+        addButtonTargets()
+    }
+}
+
+
+// MARK: Objc Methods
+private extension HomeVC {
+    
+    @objc func theoryButtonTapped() {
+        print("theory button tapped")
+    }
+    
+    
+    @objc func videosButtonTapped() {
+        print("videos button tapped")
+    }
+    
+    
+    @objc func testBookingButtonTapped() {
+        print("test bookings button tapped")
+    }
+    
+    
+    @objc func reviewsButtonTapped() {
+        print("reviews button tapped")
+    }
+    
+    
+    @objc func showTellButtonTapped() {
+        print("show tell button tapped")
+    }
+    
+    
+    @objc func contactButtonTapped() {
+        print("contact button tapped")
     }
 }
 
 
 // MARK: - Private Methods
 private extension HomeVC {
+    
+    func addButtonTargets() {
+        theoryButton.addTarget(self, action: #selector(theoryButtonTapped), for: .touchUpInside)
+        videosButton.addTarget(self, action: #selector(videosButtonTapped), for: .touchUpInside)
+        testBookingButton.addTarget(self, action: #selector(testBookingButtonTapped), for: .touchUpInside)
+        reviewsButton.addTarget(self, action: #selector(reviewsButtonTapped), for: .touchUpInside)
+        showTellButton.addTarget(self, action: #selector(showTellButtonTapped), for: .touchUpInside)
+        contactButton.addTarget(self, action: #selector(contactButtonTapped), for: .touchUpInside)
+    }
+    
     
     func setupViews() {
         view.addSubview(headerImageView)
