@@ -10,7 +10,6 @@
 		47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */; };
 		47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */; };
 		47D9BF4625FBBD3C0011CB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4525FBBD3C0011CB69 /* ViewController.swift */; };
-		47D9BF4925FBBD3C0011CB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4725FBBD3C0011CB69 /* Main.storyboard */; };
 		47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */; };
 		47D9BF4E25FBBD3D0011CB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4C25FBBD3D0011CB69 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4525FBBD3C0011CB69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47D9BF4825FBBD3C0011CB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D9BF4D25FBBD3D0011CB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D9BF4F25FBBD3D0011CB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,22 @@
 		47D9BF4025FBBD3C0011CB69 /* No Ls Driving School */ = {
 			isa = PBXGroup;
 			children = (
+				47D9BF6E25FBBF400011CB69 /* Support Files */,
+				47D9BF4525FBBD3C0011CB69 /* ViewController.swift */,
+			);
+			path = "No Ls Driving School";
+			sourceTree = "<group>";
+		};
+		47D9BF6E25FBBF400011CB69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */,
 				47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */,
-				47D9BF4525FBBD3C0011CB69 /* ViewController.swift */,
-				47D9BF4725FBBD3C0011CB69 /* Main.storyboard */,
 				47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */,
 				47D9BF4C25FBBD3D0011CB69 /* LaunchScreen.storyboard */,
 				47D9BF4F25FBBD3D0011CB69 /* Info.plist */,
 			);
-			path = "No Ls Driving School";
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +131,6 @@
 			files = (
 				47D9BF4E25FBBD3D0011CB69 /* LaunchScreen.storyboard in Resources */,
 				47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */,
-				47D9BF4925FBBD3C0011CB69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +150,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47D9BF4725FBBD3C0011CB69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47D9BF4825FBBD3C0011CB69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47D9BF4C25FBBD3D0011CB69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.castleCode.No-Ls-Driving-School";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.castleCode.No-Ls-Driving-School";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
