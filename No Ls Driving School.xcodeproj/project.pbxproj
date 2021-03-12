@@ -16,6 +16,7 @@
 		47D9BF8125FBC1020011CB69 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */; };
 		47D9BF8425FBC11B0011CB69 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */; };
 		47D9BF8825FBC3940011CB69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF8725FBC3940011CB69 /* Constants.swift */; };
+		47D9BF8D25FBC7040011CB69 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
 		47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		47D9BF8725FBC3940011CB69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		47D9BF7325FBBFCB0011CB69 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D9BF8D25FBC7040011CB69 /* UIView+Ext.swift in Sources */,
 				47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */,
 				47D9BF8125FBC1020011CB69 /* ReviewsVC.swift in Sources */,
 				47D9BF7D25FBC0E80011CB69 /* HomeVC.swift in Sources */,
