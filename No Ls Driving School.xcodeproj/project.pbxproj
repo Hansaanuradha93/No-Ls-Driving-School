@@ -19,6 +19,7 @@
 		47D9BF8D25FBC7040011CB69 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */; };
 		47D9BF9125FBC95A0011CB69 /* LSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF9025FBC95A0011CB69 /* LSImageView.swift */; };
 		47D9BF9625FBCC450011CB69 /* LSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF9525FBCC450011CB69 /* LSButton.swift */; };
+		47D9BF9E25FBD3AF0011CB69 /* TheoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF9D25FBD3AF0011CB69 /* TheoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		47D9BF9025FBC95A0011CB69 /* LSImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSImageView.swift; sourceTree = "<group>"; };
 		47D9BF9525FBCC450011CB69 /* LSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSButton.swift; sourceTree = "<group>"; };
+		47D9BF9D25FBD3AF0011CB69 /* TheoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +112,9 @@
 		47D9BF7225FBBFC20011CB69 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF7925FBC0BB0011CB69 /* Home */,
-				47D9BF7A25FBC0C20011CB69 /* Reviews */,
-				47D9BF7B25FBC0C70011CB69 /* Contacts */,
+				47D9BF7925FBC0BB0011CB69 /* Home Scene */,
+				47D9BF7A25FBC0C20011CB69 /* Reviews Scene */,
+				47D9BF7B25FBC0C70011CB69 /* Contacts Scene */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -133,28 +135,29 @@
 			name = "Tab Bar";
 			sourceTree = "<group>";
 		};
-		47D9BF7925FBC0BB0011CB69 /* Home */ = {
+		47D9BF7925FBC0BB0011CB69 /* Home Scene */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF7C25FBC0E80011CB69 /* HomeVC.swift */,
+				47D9BF9C25FBD39B0011CB69 /* Theory */,
+				47D9BF9925FBD30D0011CB69 /* Home */,
 			);
-			name = Home;
+			name = "Home Scene";
 			sourceTree = "<group>";
 		};
-		47D9BF7A25FBC0C20011CB69 /* Reviews */ = {
+		47D9BF7A25FBC0C20011CB69 /* Reviews Scene */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */,
+				47D9BF9A25FBD3170011CB69 /* Reviews */,
 			);
-			name = Reviews;
+			name = "Reviews Scene";
 			sourceTree = "<group>";
 		};
-		47D9BF7B25FBC0C70011CB69 /* Contacts */ = {
+		47D9BF7B25FBC0C70011CB69 /* Contacts Scene */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */,
+				47D9BF9B25FBD3290011CB69 /* Contacts */,
 			);
-			name = Contacts;
+			name = "Contacts Scene";
 			sourceTree = "<group>";
 		};
 		47D9BF8625FBC3840011CB69 /* Constants */ = {
@@ -179,6 +182,38 @@
 				47D9BF9525FBCC450011CB69 /* LSButton.swift */,
 			);
 			name = Button;
+			sourceTree = "<group>";
+		};
+		47D9BF9925FBD30D0011CB69 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF7C25FBC0E80011CB69 /* HomeVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		47D9BF9A25FBD3170011CB69 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */,
+			);
+			name = Reviews;
+			sourceTree = "<group>";
+		};
+		47D9BF9B25FBD3290011CB69 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		47D9BF9C25FBD39B0011CB69 /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF9D25FBD3AF0011CB69 /* TheoryVC.swift */,
+			);
+			name = Theory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +291,7 @@
 				47D9BF8125FBC1020011CB69 /* ReviewsVC.swift in Sources */,
 				47D9BF9625FBCC450011CB69 /* LSButton.swift in Sources */,
 				47D9BF7D25FBC0E80011CB69 /* HomeVC.swift in Sources */,
+				47D9BF9E25FBD3AF0011CB69 /* TheoryVC.swift in Sources */,
 				47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */,
 				47D9BF8825FBC3940011CB69 /* Constants.swift in Sources */,
 				47D9BF7725FBC0620011CB69 /* LSTabBar.swift in Sources */,

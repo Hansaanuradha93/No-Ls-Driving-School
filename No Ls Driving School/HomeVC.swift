@@ -26,7 +26,7 @@ class HomeVC: UIViewController {
 private extension HomeVC {
     
     @objc func theoryButtonTapped() {
-        print("theory button tapped")
+        navigationController?.pushViewController(TheoryVC(), animated: true)
     }
     
     
@@ -99,6 +99,6 @@ private extension HomeVC {
     
     func setupHeaders() {
         view.backgroundColor = .white
-        navigationController?.navigationBar.isHidden = true
+        navigationController?.isNavigationBarHidden = true
     }
 }
