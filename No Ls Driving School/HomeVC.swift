@@ -72,7 +72,7 @@ private extension HomeVC {
     func setupViews() {
         view.addSubview(headerImageView)
         
-        headerImageView.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: view.leadingAnchor, bottom: view.centerYAnchor, trailing: view.trailingAnchor)
+        headerImageView.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: view.leadingAnchor, bottom: view.centerYAnchor, trailing: view.trailingAnchor, padding: .init(top: 0, left: 20, bottom: 0, right: 20))
         
         let topStackView = UIStackView(arrangedSubviews: [theoryButton, videosButton])
         topStackView.distribution = .fillEqually
