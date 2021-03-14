@@ -51,7 +51,7 @@ private extension HomeVC {
     
     
     @objc func contactButtonTapped() {
-        print("contact button tapped")
+        self.tabBarController?.selectedIndex = 2
     }
 }
 

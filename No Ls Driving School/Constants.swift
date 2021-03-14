@@ -18,6 +18,10 @@ struct Asserts {
     // Reviews
     static let review = UIImage(named: "review")!
     static let stars = UIImage(named: "5star")!
+    
+    // Contact Us
+    static let websiteContact = UIImage(named: "cont")!
+    static let mobileContact = UIImage(named: "mob")!
 }
 
 
