@@ -1,6 +1,6 @@
 import Foundation
 
-struct YoutubeLink {
+struct WebPage {
     
     // MARK: Properties
     let name: String
