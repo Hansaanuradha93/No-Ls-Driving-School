@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		479209A025FDC9BA00E45E6E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */; };
 		479209A425FDCABA00E45E6E /* LSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209A325FDCABA00E45E6E /* LSLabel.swift */; };
+		479209A925FDD35A00E45E6E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209A825FDD35A00E45E6E /* UIViewController+Ext.swift */; };
 		47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */; };
 		47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */; };
 		47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		479209A325FDCABA00E45E6E /* LSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSLabel.swift; sourceTree = "<group>"; };
+		479209A825FDD35A00E45E6E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		47D9BF3E25FBBD3C0011CB69 /* No Ls Driving School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Ls Driving School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */,
 				4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */,
+				479209A825FDD35A00E45E6E /* UIViewController+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				47D9BF9125FBC95A0011CB69 /* LSImageView.swift in Sources */,
 				47D9BF8D25FBC7040011CB69 /* UIView+Ext.swift in Sources */,
+				479209A925FDD35A00E45E6E /* UIViewController+Ext.swift in Sources */,
 				47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */,
 				47D9BF8125FBC1020011CB69 /* ReviewsVC.swift in Sources */,
 				47D9BF9625FBCC450011CB69 /* LSButton.swift in Sources */,

@@ -3,13 +3,13 @@ import UIKit
 class HomeVC: UIViewController {
     
     // MARK: Properties
-    private let headerImageView = LSImageView(image: Asserts.header,contentMode: .scaleAspectFill)
-    private let theoryButton = LSButton(backgroundColor: .darkGray, title: "Theory", titleColor: .white)
-    private let videosButton = LSButton(backgroundColor: .darkGray, title: "Videos", titleColor: .white)
-    private let testBookingButton = LSButton(backgroundColor: .darkGray, title: "Test Booking", titleColor: .white)
-    private let reviewsButton = LSButton(backgroundColor: .darkGray, title: "Reviews", titleColor: .white)
-    private let showTellButton = LSButton(backgroundColor: .darkGray, title: "Show Tell", titleColor: .white)
-    private let contactButton = LSButton(backgroundColor: .darkGray, title: "Contact", titleColor: .white)
+    private let headerImageView = LSImageView(image: Asserts.header)
+    private let theoryButton = LSButton(title: "Theory", titleColor: .white)
+    private let videosButton = LSButton(title: "Videos", titleColor: .white)
+    private let testBookingButton = LSButton(title: "Test Booking", titleColor: .white)
+    private let reviewsButton = LSButton(title: "Reviews", titleColor: .white)
+    private let showTellButton = LSButton(title: "Show Tell", titleColor: .white)
+    private let contactButton = LSButton(title: "Contact", titleColor: .white)
     
     
     // MARK: View Controller
