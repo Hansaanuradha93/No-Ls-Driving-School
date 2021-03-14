@@ -31,7 +31,7 @@ private extension HomeVC {
     
     
     @objc func videosButtonTapped() {
-        print("videos button tapped")
+        navigationController?.pushViewController(VideosVC(), animated: true)
     }
     
     
