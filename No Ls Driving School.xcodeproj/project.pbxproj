@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479209A025FDC9BA00E45E6E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */; };
+		479209A425FDCABA00E45E6E /* LSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209A325FDCABA00E45E6E /* LSLabel.swift */; };
 		47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */; };
 		47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */; };
 		47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		479209A325FDCABA00E45E6E /* LSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSLabel.swift; sourceTree = "<group>"; };
 		47D9BF3E25FBBD3C0011CB69 /* No Ls Driving School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Ls Driving School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		479209A225FDCAA200E45E6E /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				479209A325FDCABA00E45E6E /* LSLabel.swift */,
+			);
+			name = Labels;
+			sourceTree = "<group>";
+		};
 		47D9BF3525FBBD3C0011CB69 = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +114,9 @@
 		47D9BF7125FBBFB20011CB69 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF9425FBCC390011CB69 /* Button */,
-				47D9BF8F25FBC9490011CB69 /* Image */,
+				479209A225FDCAA200E45E6E /* Labels */,
+				47D9BF9425FBCC390011CB69 /* Buttons */,
+				47D9BF8F25FBC9490011CB69 /* Images */,
 				47D9BF7525FBC03D0011CB69 /* Tab Bar */,
 			);
 			name = "Custom Views";
@@ -123,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				47D9BF8C25FBC7040011CB69 /* UIView+Ext.swift */,
+				4792099F25FDC9BA00E45E6E /* UIColor+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -168,20 +182,20 @@
 			name = Constants;
 			sourceTree = "<group>";
 		};
-		47D9BF8F25FBC9490011CB69 /* Image */ = {
+		47D9BF8F25FBC9490011CB69 /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				47D9BF9025FBC95A0011CB69 /* LSImageView.swift */,
 			);
-			name = Image;
+			name = Images;
 			sourceTree = "<group>";
 		};
-		47D9BF9425FBCC390011CB69 /* Button */ = {
+		47D9BF9425FBCC390011CB69 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
 				47D9BF9525FBCC450011CB69 /* LSButton.swift */,
 			);
-			name = Button;
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 		47D9BF9925FBD30D0011CB69 /* Home */ = {
@@ -293,7 +307,9 @@
 				47D9BF7D25FBC0E80011CB69 /* HomeVC.swift in Sources */,
 				47D9BF9E25FBD3AF0011CB69 /* TheoryVC.swift in Sources */,
 				47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */,
+				479209A425FDCABA00E45E6E /* LSLabel.swift in Sources */,
 				47D9BF8825FBC3940011CB69 /* Constants.swift in Sources */,
+				479209A025FDC9BA00E45E6E /* UIColor+Ext.swift in Sources */,
 				47D9BF7725FBC0620011CB69 /* LSTabBar.swift in Sources */,
 				47D9BF8425FBC11B0011CB69 /* ContactsVC.swift in Sources */,
 			);
