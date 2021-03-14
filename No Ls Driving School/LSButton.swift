@@ -11,7 +11,7 @@ class LSButton: UIButton {
     required init?(coder: NSCoder) {  fatalError() }
     
     
-    convenience init(backgroundColor: UIColor = AppColor.darkestGray, title: String = "", titleColor: UIColor = AppColor.darkestGray, fontSize: CGFloat = 16) {
+    convenience init(backgroundColor: UIColor = AppColor.darkGray, title: String = "", titleColor: UIColor = AppColor.darkGray, fontSize: CGFloat = 16) {
         self.init(frame: .zero)
         let traits = [UIFontDescriptor.TraitKey.weight: UIFont.Weight.bold]
         var descriptor = UIFontDescriptor(fontAttributes: [UIFontDescriptor.AttributeName.family: Fonts.avenirNext])
