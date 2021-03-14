@@ -46,7 +46,7 @@ private extension HomeVC {
     
     
     @objc func showTellButtonTapped() {
-        print("show tell button tapped")
+        navigationController?.pushViewController(ShowTellVC(), animated: true)
     }
     
     

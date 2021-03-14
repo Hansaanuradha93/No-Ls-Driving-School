@@ -6,7 +6,7 @@ class ReviewsVC: UIViewController {
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
     private let reviewImageView = LSImageView(image: Asserts.review, contentMode: .scaleAspectFit)
     private let starImageView = LSImageView(image: Asserts.stars, contentMode: .scaleAspectFill)
-    private let contentLabel = LSLabel(text: "We have loads of 5 star reviews on Google, Facebook and Free Index. We would love it if you were to leave a review too!", textColor: AppColor.darkestGray, fontSize: 18, textAlignment: .center, numberOfLines: 0)
+    private let contentLabel = LSLabel(text: "We have loads of 5 star reviews on Google, Facebook and Free Index. We would love it if you were to leave a review too!", textColor: AppColor.darkGray, fontSize: 18, textAlignment: .center, numberOfLines: 0)
     private let reviewButton = LSButton(backgroundColor: .white, title: "Leave a Free Index Review", titleColor: .red, fontSize: 20)
 
     

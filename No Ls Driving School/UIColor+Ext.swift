@@ -1,7 +1,8 @@
 import UIKit
 
 enum AssertColor: String {
-    case darkestGray = "DarkGray"
+    case darkestGray = "DarkestGray"
+    case darkGray = "DarkGray"
     case lightGray = "LightGray"
 }
 
@@ -15,5 +16,6 @@ extension UIColor {
 
 struct AppColor {
     static let darkestGray = UIColor.appColor(color: .darkestGray)
+    static let darkGray = UIColor.appColor(color: .darkGray)
     static let lightGray = UIColor.appColor(color: .lightGray)
 }

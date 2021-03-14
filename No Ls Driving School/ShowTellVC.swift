@@ -3,6 +3,7 @@ import UIKit
 class ShowTellVC: UIViewController {
     
     // MARK: Properties
+    private let viewModel = ShowTellVM()
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
     private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Show Me Tell Me Questions", fontSize: 22)
     private let tableView = UITableView()
@@ -26,26 +27,58 @@ extension ShowTellVC: UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        if section == 0 {
+            return viewModel.showQuestions.count
+        } else if section == 1 {
+            return viewModel.tellMeQuestions.count
+        } else {
+            return 0
+        }
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: VideoTableViewCell.reuseID, for: indexPath) as! VideoTableViewCell
-        cell.set(title: "Title")
-        return cell
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: VideoTableViewCell.reuseID, for: indexPath) as! VideoTableViewCell
+            cell.set(title: viewModel.showQuestions[indexPath.row])
+            return cell
+        } else if indexPath.section == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: QuizTableViewCell.reuseID, for: indexPath) as! QuizTableViewCell
+            cell.set(quiz: viewModel.tellMeQuestions[indexPath.row])
+            return cell
+        } else {
+            let cell = UITableViewCell()
+            return cell
+        }
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-       let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: HeaderView.reuseID) as! HeaderView
-       view.titleLabel.text = "Section Title"
-
-       return view
+        let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: HeaderView.reuseID) as! HeaderView
+        if section == 0 {
+            view.set(title: "Show Me")
+        } else if section == 1 {
+            view.set(title: "Tell Me")
+        } else {
+            view.set(title: "")
+        }
+        return view
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40
+    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 40
+        if indexPath.section == 0 {
+            return 100
+        } else if indexPath.section == 1 {
+            if indexPath.row == 8 {
+                return 350
+            } else if indexPath.row == 2 {
+                return 240
+            }
+            return 200
+        } else { return 0 }
     }
 }
 
@@ -65,6 +98,7 @@ private extension ShowTellVC {
         tableView.separatorStyle = .none
         tableView.showsVerticalScrollIndicator = false
         tableView.register(VideoTableViewCell.self, forCellReuseIdentifier: VideoTableViewCell.reuseID)
+        tableView.register(QuizTableViewCell.self, forCellReuseIdentifier: QuizTableViewCell.reuseID)
         tableView.register(HeaderView.self, forHeaderFooterViewReuseIdentifier: HeaderView.reuseID)
     }
     
