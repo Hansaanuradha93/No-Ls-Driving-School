@@ -4,7 +4,7 @@ class HeaderView: UITableViewHeaderFooterView {
     
     // MARK: Properties
     static let reuseID = "HeaderView"
-    let titleLabel = UILabel()
+    private let titleLabel = LSTitleLabel(textColor: AppColor.darkestGray, fontSize: 20, textAlignment: .left)
 
     
     // MARK: Initializers
@@ -22,7 +22,7 @@ class HeaderView: UITableViewHeaderFooterView {
 extension HeaderView {
     
     func set(title: String) {
-        titleLabel.text = title
+        titleLabel.text = title.uppercased()
     }
     
     
