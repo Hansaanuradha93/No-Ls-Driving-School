@@ -27,7 +27,7 @@ extension VideoTableViewCell {
     
     private func configure() {
         selectionStyle = .none
-        addSubviews(titleLabel)
+        contentView.addSubviews(titleLabel)
         titleLabel.fillSuperview(padding: .init(top: 0, left: 0, bottom: 0, right: 0))
     }
 }
