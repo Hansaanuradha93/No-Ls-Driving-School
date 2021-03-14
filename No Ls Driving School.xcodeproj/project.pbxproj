@@ -13,6 +13,8 @@
 		479209AD25FDD97600E45E6E /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209AC25FDD97600E45E6E /* VideosVC.swift */; };
 		479209B225FDDB8000E45E6E /* VideosVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209B125FDDB8000E45E6E /* VideosVM.swift */; };
 		479209B625FDDBE600E45E6E /* YoutubeLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209B525FDDBE600E45E6E /* YoutubeLink.swift */; };
+		479209BA25FDE23800E45E6E /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209B925FDE23800E45E6E /* VideoTableViewCell.swift */; };
+		479209BE25FDE2FA00E45E6E /* LSTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209BD25FDE2FA00E45E6E /* LSTitleLabel.swift */; };
 		47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */; };
 		47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */; };
 		47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 		479209AC25FDD97600E45E6E /* VideosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
 		479209B125FDDB8000E45E6E /* VideosVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosVM.swift; sourceTree = "<group>"; };
 		479209B525FDDBE600E45E6E /* YoutubeLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeLink.swift; sourceTree = "<group>"; };
+		479209B925FDE23800E45E6E /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		479209BD25FDE2FA00E45E6E /* LSTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTitleLabel.swift; sourceTree = "<group>"; };
 		47D9BF3E25FBBD3C0011CB69 /* No Ls Driving School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Ls Driving School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				479209A325FDCABA00E45E6E /* LSLabel.swift */,
+				479209BD25FDE2FA00E45E6E /* LSTitleLabel.swift */,
 			);
 			name = Labels;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 		479209AB25FDD96300E45E6E /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				479209B825FDE21900E45E6E /* Cells */,
 				479209AC25FDD97600E45E6E /* VideosVC.swift */,
 			);
 			name = Videos;
@@ -85,6 +91,14 @@
 				479209B125FDDB8000E45E6E /* VideosVM.swift */,
 			);
 			name = "View Models";
+			sourceTree = "<group>";
+		};
+		479209B825FDE21900E45E6E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				479209B925FDE23800E45E6E /* VideoTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		47D9BF3525FBBD3C0011CB69 = {
@@ -332,6 +346,7 @@
 				479209A925FDD35A00E45E6E /* UIViewController+Ext.swift in Sources */,
 				47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */,
 				47D9BF8125FBC1020011CB69 /* ReviewsVC.swift in Sources */,
+				479209BE25FDE2FA00E45E6E /* LSTitleLabel.swift in Sources */,
 				479209B625FDDBE600E45E6E /* YoutubeLink.swift in Sources */,
 				47D9BF9625FBCC450011CB69 /* LSButton.swift in Sources */,
 				479209B225FDDB8000E45E6E /* VideosVM.swift in Sources */,
@@ -344,6 +359,7 @@
 				479209A025FDC9BA00E45E6E /* UIColor+Ext.swift in Sources */,
 				47D9BF7725FBC0620011CB69 /* LSTabBar.swift in Sources */,
 				47D9BF8425FBC11B0011CB69 /* ContactsVC.swift in Sources */,
+				479209BA25FDE23800E45E6E /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
