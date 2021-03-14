@@ -27,5 +27,5 @@ struct Asserts {
 
 // MARK: Fonts
 struct Fonts {
-    static let avenirNext = "Avenir Next"
+    static let avenirNext = "Arial"
 }
