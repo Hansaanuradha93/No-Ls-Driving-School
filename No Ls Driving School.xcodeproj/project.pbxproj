@@ -20,6 +20,9 @@
 		479209C925FDF48E00E45E6E /* WebPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209C825FDF48E00E45E6E /* WebPage.swift */; };
 		479209CD25FE229F00E45E6E /* ShowTellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209CC25FE229F00E45E6E /* ShowTellVC.swift */; };
 		479209E925FE3CCD00E45E6E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209E825FE3CCD00E45E6E /* HeaderView.swift */; };
+		479209ED25FE5C0600E45E6E /* ShowTellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209EC25FE5C0600E45E6E /* ShowTellVM.swift */; };
+		479209F025FE616200E45E6E /* TellMeQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209EF25FE616200E45E6E /* TellMeQuiz.swift */; };
+		479209F325FE635500E45E6E /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479209F225FE635500E45E6E /* QuizTableViewCell.swift */; };
 		47D9BF4225FBBD3C0011CB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */; };
 		47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */; };
 		47D9BF4B25FBBD3D0011CB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BF4A25FBBD3D0011CB69 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		479209C825FDF48E00E45E6E /* WebPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPage.swift; sourceTree = "<group>"; };
 		479209CC25FE229F00E45E6E /* ShowTellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTellVC.swift; sourceTree = "<group>"; };
 		479209E825FE3CCD00E45E6E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		479209EC25FE5C0600E45E6E /* ShowTellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTellVM.swift; sourceTree = "<group>"; };
+		479209EF25FE616200E45E6E /* TellMeQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellMeQuiz.swift; sourceTree = "<group>"; };
+		479209F225FE635500E45E6E /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
 		47D9BF3E25FBBD3C0011CB69 /* No Ls Driving School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Ls Driving School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9BF4125FBBD3C0011CB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9BF4325FBBD3C0011CB69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 			children = (
 				479209B125FDDB8000E45E6E /* VideosVM.swift */,
 				479209C525FDF44400E45E6E /* TestBookingsVM.swift */,
+				479209EC25FE5C0600E45E6E /* ShowTellVM.swift */,
 			);
 			name = "View Models";
 			sourceTree = "<group>";
@@ -107,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				479209B925FDE23800E45E6E /* VideoTableViewCell.swift */,
+				479209F225FE635500E45E6E /* QuizTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -191,6 +199,7 @@
 			children = (
 				479209B525FDDBE600E45E6E /* YoutubeLink.swift */,
 				479209C825FDF48E00E45E6E /* WebPage.swift */,
+				479209EF25FE616200E45E6E /* TellMeQuiz.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -388,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479209ED25FE5C0600E45E6E /* ShowTellVM.swift in Sources */,
 				479209C225FDF26900E45E6E /* TestBookingsVC.swift in Sources */,
 				47D9BF9125FBC95A0011CB69 /* LSImageView.swift in Sources */,
 				479209CD25FE229F00E45E6E /* ShowTellVC.swift in Sources */,
@@ -404,12 +414,14 @@
 				47D9BF7D25FBC0E80011CB69 /* HomeVC.swift in Sources */,
 				47D9BF9E25FBD3AF0011CB69 /* TheoryVC.swift in Sources */,
 				47D9BF4425FBBD3C0011CB69 /* SceneDelegate.swift in Sources */,
+				479209F325FE635500E45E6E /* QuizTableViewCell.swift in Sources */,
 				479209A425FDCABA00E45E6E /* LSLabel.swift in Sources */,
 				47D9BF8825FBC3940011CB69 /* Constants.swift in Sources */,
 				479209AD25FDD97600E45E6E /* VideosVC.swift in Sources */,
 				479209A025FDC9BA00E45E6E /* UIColor+Ext.swift in Sources */,
 				47D9BF7725FBC0620011CB69 /* LSTabBar.swift in Sources */,
 				47D9BF8425FBC11B0011CB69 /* ContactsVC.swift in Sources */,
+				479209F025FE616200E45E6E /* TellMeQuiz.swift in Sources */,
 				479209C625FDF44400E45E6E /* TestBookingsVM.swift in Sources */,
 				479209BA25FDE23800E45E6E /* VideoTableViewCell.swift in Sources */,
 			);
