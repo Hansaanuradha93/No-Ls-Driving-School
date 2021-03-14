@@ -41,7 +41,7 @@ private extension HomeVC {
     
     
     @objc func reviewsButtonTapped() {
-        print("reviews button tapped")
+        self.tabBarController?.selectedIndex = 1
     }
     
     

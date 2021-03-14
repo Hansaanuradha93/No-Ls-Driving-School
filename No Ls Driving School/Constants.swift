@@ -14,6 +14,10 @@ struct Asserts {
     // Home
     static let header = UIImage(named: "main")!
     static let theoryTest = UIImage(named: "ttpro")!
+    
+    // Reviews
+    static let review = UIImage(named: "review")!
+    static let stars = UIImage(named: "5star")!
 }
 
 
