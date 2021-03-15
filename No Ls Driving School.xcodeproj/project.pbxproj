@@ -83,13 +83,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		479209A225FDCAA200E45E6E /* Labels */ = {
+		47066FD925FFB5C3008D45EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				479209B525FDDBE600E45E6E /* YoutubeLink.swift */,
+				479209C825FDF48E00E45E6E /* WebPage.swift */,
+				479209EF25FE616200E45E6E /* TellMeQuiz.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47066FDA25FFB5DB008D45EA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				47066FDF25FFB62E008D45EA /* Tab Bar */,
+				47066FDD25FFB618008D45EA /* Image Views */,
+				47066FDC25FFB607008D45EA /* Buttons */,
+				47066FDB25FFB5F7008D45EA /* Labels */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		47066FDB25FFB5F7008D45EA /* Labels */ = {
 			isa = PBXGroup;
 			children = (
 				479209A325FDCABA00E45E6E /* LSLabel.swift */,
 				479209BD25FDE2FA00E45E6E /* LSTitleLabel.swift */,
 			);
-			name = Labels;
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		47066FDC25FFB607008D45EA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF9525FBCC450011CB69 /* LSButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		47066FDD25FFB618008D45EA /* Image Views */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF9025FBC95A0011CB69 /* LSImageView.swift */,
+			);
+			path = "Image Views";
+			sourceTree = "<group>";
+		};
+		47066FDF25FFB62E008D45EA /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF7625FBC0620011CB69 /* LSTabBar.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		47066FE025FFB648008D45EA /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				479209B125FDDB8000E45E6E /* VideosVM.swift */,
+				479209C525FDF44400E45E6E /* TestBookingsVM.swift */,
+				479209EC25FE5C0600E45E6E /* ShowTellVM.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		479209AB25FDD96300E45E6E /* Videos */ = {
@@ -98,16 +153,6 @@
 				479209AC25FDD97600E45E6E /* VideosVC.swift */,
 			);
 			name = Videos;
-			sourceTree = "<group>";
-		};
-		479209B025FDDB7000E45E6E /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-				479209B125FDDB8000E45E6E /* VideosVM.swift */,
-				479209C525FDF44400E45E6E /* TestBookingsVM.swift */,
-				479209EC25FE5C0600E45E6E /* ShowTellVM.swift */,
-			);
-			name = "View Models";
 			sourceTree = "<group>";
 		};
 		479209B825FDE21900E45E6E /* Cells */ = {
@@ -171,9 +216,9 @@
 		47D9BF4025FBBD3C0011CB69 /* No Ls Driving School */ = {
 			isa = PBXGroup;
 			children = (
-				47D9BF7025FBBFA90011CB69 /* Model */,
-				47D9BF7125FBBFB20011CB69 /* Custom Views */,
-				479209B025FDDB7000E45E6E /* View Models */,
+				47066FD925FFB5C3008D45EA /* Model */,
+				47066FDA25FFB5DB008D45EA /* Custom Views */,
+				47066FE025FFB648008D45EA /* View Models */,
 				47D9BF7225FBBFC20011CB69 /* Scenes */,
 				47D9BF7325FBBFCB0011CB69 /* Extensions */,
 				47D9BF8625FBC3840011CB69 /* Constants */,
@@ -194,27 +239,6 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
-		47D9BF7025FBBFA90011CB69 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				479209B525FDDBE600E45E6E /* YoutubeLink.swift */,
-				479209C825FDF48E00E45E6E /* WebPage.swift */,
-				479209EF25FE616200E45E6E /* TellMeQuiz.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		47D9BF7125FBBFB20011CB69 /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-				479209A225FDCAA200E45E6E /* Labels */,
-				47D9BF9425FBCC390011CB69 /* Buttons */,
-				47D9BF8F25FBC9490011CB69 /* Images */,
-				47D9BF7525FBC03D0011CB69 /* Tab Bar */,
-			);
-			name = "Custom Views";
-			sourceTree = "<group>";
-		};
 		47D9BF7225FBBFC20011CB69 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,14 +257,6 @@
 				479209A825FDD35A00E45E6E /* UIViewController+Ext.swift */,
 			);
 			name = Extensions;
-			sourceTree = "<group>";
-		};
-		47D9BF7525FBC03D0011CB69 /* Tab Bar */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF7625FBC0620011CB69 /* LSTabBar.swift */,
-			);
-			name = "Tab Bar";
 			sourceTree = "<group>";
 		};
 		47D9BF7925FBC0BB0011CB69 /* Home Scene */ = {
@@ -278,22 +294,6 @@
 				47D9BF8725FBC3940011CB69 /* Constants.swift */,
 			);
 			name = Constants;
-			sourceTree = "<group>";
-		};
-		47D9BF8F25FBC9490011CB69 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF9025FBC95A0011CB69 /* LSImageView.swift */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		47D9BF9425FBCC390011CB69 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF9525FBCC450011CB69 /* LSButton.swift */,
-			);
-			name = Buttons;
 			sourceTree = "<group>";
 		};
 		47D9BF9925FBD30D0011CB69 /* Home */ = {
