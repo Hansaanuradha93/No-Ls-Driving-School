@@ -83,14 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47066FD925FFB5C3008D45EA /* Model */ = {
+		47066FD925FFB5C3008D45EA /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				479209B525FDDBE600E45E6E /* YoutubeLink.swift */,
 				479209C825FDF48E00E45E6E /* WebPage.swift */,
 				479209EF25FE616200E45E6E /* TellMeQuiz.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		47066FDA25FFB5DB008D45EA /* Custom Views */ = {
@@ -147,54 +147,125 @@
 			path = "View Models";
 			sourceTree = "<group>";
 		};
-		479209AB25FDD96300E45E6E /* Videos */ = {
+		47066FE325FFB698008D45EA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				479209AC25FDD97600E45E6E /* VideosVC.swift */,
+				47066FE425FFB6AB008D45EA /* Home Scene */,
+				47066FE525FFB6B2008D45EA /* Reviews Scene */,
+				47066FE625FFB6C0008D45EA /* Contact Scene */,
 			);
-			name = Videos;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
-		479209B825FDE21900E45E6E /* Cells */ = {
+		47066FE425FFB6AB008D45EA /* Home Scene */ = {
+			isa = PBXGroup;
+			children = (
+				47066FE925FFB70F008D45EA /* Custom Views */,
+				47066FEF25FFB780008D45EA /* Videos */,
+				47066FED25FFB740008D45EA /* Home */,
+				47066FEE25FFB756008D45EA /* Theory */,
+				47066FF025FFB7B8008D45EA /* Test Bookings */,
+				47066FF125FFB7DB008D45EA /* ShowTell */,
+			);
+			path = "Home Scene";
+			sourceTree = "<group>";
+		};
+		47066FE525FFB6B2008D45EA /* Reviews Scene */ = {
+			isa = PBXGroup;
+			children = (
+				47066FE725FFB6D5008D45EA /* Reviews */,
+			);
+			path = "Reviews Scene";
+			sourceTree = "<group>";
+		};
+		47066FE625FFB6C0008D45EA /* Contact Scene */ = {
+			isa = PBXGroup;
+			children = (
+				47066FE825FFB6EF008D45EA /* Contacts */,
+			);
+			path = "Contact Scene";
+			sourceTree = "<group>";
+		};
+		47066FE725FFB6D5008D45EA /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		47066FE825FFB6EF008D45EA /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		47066FE925FFB70F008D45EA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				47066FEA25FFB71A008D45EA /* Headers */,
+				47066FEB25FFB721008D45EA /* Cells */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		47066FEA25FFB71A008D45EA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				479209E825FE3CCD00E45E6E /* HeaderView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		47066FEB25FFB721008D45EA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				479209B925FDE23800E45E6E /* VideoTableViewCell.swift */,
 				479209F225FE635500E45E6E /* QuizTableViewCell.swift */,
 			);
-			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
-		479209C025FDF1EC00E45E6E /* Test Bookings */ = {
+		47066FED25FFB740008D45EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF7C25FBC0E80011CB69 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		47066FEE25FFB756008D45EA /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				47D9BF9D25FBD3AF0011CB69 /* TheoryVC.swift */,
+			);
+			path = Theory;
+			sourceTree = "<group>";
+		};
+		47066FEF25FFB780008D45EA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				479209AC25FDD97600E45E6E /* VideosVC.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		47066FF025FFB7B8008D45EA /* Test Bookings */ = {
 			isa = PBXGroup;
 			children = (
 				479209C125FDF26900E45E6E /* TestBookingsVC.swift */,
 			);
-			name = "Test Bookings";
+			path = "Test Bookings";
 			sourceTree = "<group>";
 		};
-		479209CB25FE227F00E45E6E /* ShowTellVC */ = {
+		47066FF125FFB7DB008D45EA /* ShowTell */ = {
 			isa = PBXGroup;
 			children = (
 				479209CC25FE229F00E45E6E /* ShowTellVC.swift */,
 			);
-			name = ShowTellVC;
-			sourceTree = "<group>";
-		};
-		479209E625FE3CAF00E45E6E /* Custom Views */ = {
-			isa = PBXGroup;
-			children = (
-				479209E725FE3CBB00E45E6E /* Headers */,
-				479209B825FDE21900E45E6E /* Cells */,
-			);
-			name = "Custom Views";
-			sourceTree = "<group>";
-		};
-		479209E725FE3CBB00E45E6E /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				479209E825FE3CCD00E45E6E /* HeaderView.swift */,
-			);
-			name = Headers;
+			path = ShowTell;
 			sourceTree = "<group>";
 		};
 		47D9BF3525FBBD3C0011CB69 = {
@@ -216,10 +287,10 @@
 		47D9BF4025FBBD3C0011CB69 /* No Ls Driving School */ = {
 			isa = PBXGroup;
 			children = (
-				47066FD925FFB5C3008D45EA /* Model */,
+				47066FD925FFB5C3008D45EA /* Models */,
 				47066FDA25FFB5DB008D45EA /* Custom Views */,
 				47066FE025FFB648008D45EA /* View Models */,
-				47D9BF7225FBBFC20011CB69 /* Scenes */,
+				47066FE325FFB698008D45EA /* Scenes */,
 				47D9BF7325FBBFCB0011CB69 /* Extensions */,
 				47D9BF8625FBC3840011CB69 /* Constants */,
 				47D9BF6E25FBBF400011CB69 /* Support Files */,
@@ -239,16 +310,6 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
-		47D9BF7225FBBFC20011CB69 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF7925FBC0BB0011CB69 /* Home Scene */,
-				47D9BF7A25FBC0C20011CB69 /* Reviews Scene */,
-				47D9BF7B25FBC0C70011CB69 /* Contacts Scene */,
-			);
-			name = Scenes;
-			sourceTree = "<group>";
-		};
 		47D9BF7325FBBFCB0011CB69 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,73 +320,12 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
-		47D9BF7925FBC0BB0011CB69 /* Home Scene */ = {
-			isa = PBXGroup;
-			children = (
-				479209E625FE3CAF00E45E6E /* Custom Views */,
-				479209CB25FE227F00E45E6E /* ShowTellVC */,
-				479209C025FDF1EC00E45E6E /* Test Bookings */,
-				479209AB25FDD96300E45E6E /* Videos */,
-				47D9BF9C25FBD39B0011CB69 /* Theory */,
-				47D9BF9925FBD30D0011CB69 /* Home */,
-			);
-			name = "Home Scene";
-			sourceTree = "<group>";
-		};
-		47D9BF7A25FBC0C20011CB69 /* Reviews Scene */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF9A25FBD3170011CB69 /* Reviews */,
-			);
-			name = "Reviews Scene";
-			sourceTree = "<group>";
-		};
-		47D9BF7B25FBC0C70011CB69 /* Contacts Scene */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF9B25FBD3290011CB69 /* Contacts */,
-			);
-			name = "Contacts Scene";
-			sourceTree = "<group>";
-		};
 		47D9BF8625FBC3840011CB69 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				47D9BF8725FBC3940011CB69 /* Constants.swift */,
 			);
 			name = Constants;
-			sourceTree = "<group>";
-		};
-		47D9BF9925FBD30D0011CB69 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF7C25FBC0E80011CB69 /* HomeVC.swift */,
-			);
-			name = Home;
-			sourceTree = "<group>";
-		};
-		47D9BF9A25FBD3170011CB69 /* Reviews */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF8025FBC1020011CB69 /* ReviewsVC.swift */,
-			);
-			name = Reviews;
-			sourceTree = "<group>";
-		};
-		47D9BF9B25FBD3290011CB69 /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF8325FBC11B0011CB69 /* ContactsVC.swift */,
-			);
-			name = Contacts;
-			sourceTree = "<group>";
-		};
-		47D9BF9C25FBD39B0011CB69 /* Theory */ = {
-			isa = PBXGroup;
-			children = (
-				47D9BF9D25FBD3AF0011CB69 /* TheoryVC.swift */,
-			);
-			name = Theory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
