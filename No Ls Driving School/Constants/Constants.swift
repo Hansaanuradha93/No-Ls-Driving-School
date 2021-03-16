@@ -25,6 +25,20 @@ struct Asserts {
 }
 
 
+// MARK: Strings
+struct Strings {
+    
+    // Home
+    static let home = "Home"
+    
+    // Reviews
+    static let reviews = "Reviews"
+    
+    // Contacts
+    static let contacts = "Contacts"
+}
+
+
 // MARK: Fonts
 struct Fonts {
     static let avenirNext = "Arial"

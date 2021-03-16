@@ -15,21 +15,21 @@ private extension LSTabBar {
     
     func createHomeNC() -> UINavigationController {
         let homeVC = HomeVC()
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: Asserts.home.withRenderingMode(.alwaysOriginal), tag: 0)
+        homeVC.tabBarItem = UITabBarItem(title: Strings.home, image: Asserts.home.withRenderingMode(.alwaysOriginal), tag: 0)
         return UINavigationController(rootViewController: homeVC)
     }
     
     
     func createReviewsNC() -> UINavigationController {
         let reviewsVC = ReviewsVC()
-        reviewsVC.tabBarItem = UITabBarItem(title: "Reviews", image: Asserts.reviews.withRenderingMode(.alwaysOriginal), tag: 1)
+        reviewsVC.tabBarItem = UITabBarItem(title: Strings.reviews, image: Asserts.reviews.withRenderingMode(.alwaysOriginal), tag: 1)
         return UINavigationController(rootViewController: reviewsVC)
     }
     
     
     func createContactsNC() -> UINavigationController {
         let contactsVC = ContactsVC()
-        contactsVC.tabBarItem = UITabBarItem(title: "Contacts", image: Asserts.contacts.withRenderingMode(.alwaysOriginal), tag: 2)
+        contactsVC.tabBarItem = UITabBarItem(title: Strings.contacts, image: Asserts.contacts.withRenderingMode(.alwaysOriginal), tag: 2)
         return UINavigationController(rootViewController: contactsVC)
     }
     
