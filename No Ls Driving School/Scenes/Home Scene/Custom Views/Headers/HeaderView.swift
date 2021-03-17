@@ -26,7 +26,7 @@ extension HeaderView {
     }
     
     
-    func configure() {
+    private func configure() {
         contentView.backgroundColor = .white
         contentView.addSubview(titleLabel)
         titleLabel.fillSuperview()
