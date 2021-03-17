@@ -14,7 +14,6 @@ class LSLabel: UILabel {
     
     convenience init(text: String = "", textColor: UIColor = .black, fontSize: CGFloat = 18, textAlignment: NSTextAlignment = .center, numberOfLines: Int = 1) {
         self.init(frame: .zero)
-        
         let traits = [UIFontDescriptor.TraitKey.weight: UIFont.Weight.regular]
         var descriptor = UIFontDescriptor(fontAttributes: [UIFontDescriptor.AttributeName.family: Fonts.avenirNext])
         descriptor = descriptor.addingAttributes([UIFontDescriptor.AttributeName.traits: traits])

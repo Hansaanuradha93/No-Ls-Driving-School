@@ -107,8 +107,8 @@
 		47066FDB25FFB5F7008D45EA /* Labels */ = {
 			isa = PBXGroup;
 			children = (
-				479209A325FDCABA00E45E6E /* LSLabel.swift */,
 				479209BD25FDE2FA00E45E6E /* LSTitleLabel.swift */,
+				479209A325FDCABA00E45E6E /* LSLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
