@@ -7,6 +7,7 @@ class QuizTableViewCell: UITableViewCell {
     private let questionLabel = LSTitleLabel(textColor: AppColor.darkGray, fontSize: 18, textAlignment: .left, numberOfLines: 0)
     private let answerLabel = LSLabel(textColor: AppColor.darkGray, fontSize: 16, textAlignment: .left, numberOfLines: 0)
     
+    
     // MARK: Initializers
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
