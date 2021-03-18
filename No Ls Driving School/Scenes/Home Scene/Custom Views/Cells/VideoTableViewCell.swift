@@ -6,6 +6,7 @@ class VideoTableViewCell: UITableViewCell {
     static let reuseID = "VideoTableViewCell"
     private let titleLabel = LSTitleLabel(textColor: AppColor.darkGray, fontSize: 18, textAlignment: .left, numberOfLines: 0)
     
+    
     // MARK: Initializers
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
