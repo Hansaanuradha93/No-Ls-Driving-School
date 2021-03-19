@@ -5,7 +5,7 @@ class VideosVC: UIViewController {
     // MARK: Properties
     private let viewModel = VideosVM()
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
-    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Recommended Videos", fontSize: 22)
+    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: Strings.recommendedVideos, fontSize: 22)
     private let videoListTableView = UITableView()
     
 
