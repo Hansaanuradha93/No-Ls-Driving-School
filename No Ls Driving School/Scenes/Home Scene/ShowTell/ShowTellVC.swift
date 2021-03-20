@@ -105,6 +105,6 @@ private extension ShowTellVC {
     
     func setupHeaders() {
         view.backgroundColor = .white
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.isNavigationBarHidden = false
     }
 }
