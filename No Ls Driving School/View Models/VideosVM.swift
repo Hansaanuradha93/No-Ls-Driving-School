@@ -24,7 +24,7 @@ final class VideosVM {
         
         YoutubeLink(name: "Cockpit Drill", urlString: "https://youtu.be/0SynvJKXgYI"),
         YoutubeLink(name: "Emerging Busy Junctions", urlString: "https://youtu.be/qhiO4t9myY4"),
-        YoutubeLink(name: "https://youtu.be/qhiO4t9myY4", urlString: "https://youtu.be/77HDwEmw0mg"),
+        YoutubeLink(name: "Steering & Controls", urlString: "https://youtu.be/77HDwEmw0mg"),
         YoutubeLink(name: "Traffic Signals Pedestrian Crossings", urlString: "https://youtu.be/W_2A_Q-ijCk"),
         YoutubeLink(name: "Traffic Light Sensors", urlString: "https://youtu.be/vAiu23qfWw4"),
         
