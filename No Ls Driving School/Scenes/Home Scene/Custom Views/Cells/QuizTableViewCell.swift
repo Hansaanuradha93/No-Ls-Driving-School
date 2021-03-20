@@ -32,6 +32,6 @@ extension QuizTableViewCell {
         selectionStyle = .none
         contentView.addSubviews(questionLabel, answerLabel)
         questionLabel.anchor(top: contentView.topAnchor, leading: contentView.leadingAnchor, bottom: nil, trailing: contentView.trailingAnchor)
-        answerLabel.anchor(top: questionLabel.bottomAnchor, leading: contentView.leadingAnchor, bottom: nil, trailing: contentView.trailingAnchor)
+        answerLabel.anchor(top: questionLabel.bottomAnchor, leading: contentView.leadingAnchor, bottom: nil, trailing: contentView.trailingAnchor, padding: .init(top: 8, left: 0, bottom: 0, right: 0))
     }
 }
