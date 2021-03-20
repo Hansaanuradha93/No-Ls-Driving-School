@@ -15,9 +15,14 @@ class HomeVC: UIViewController {
     // MARK: View Controller
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupHeaders()
         setupViews()
         addButtonTargets()
+    }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupHeaders()
     }
 }
 
