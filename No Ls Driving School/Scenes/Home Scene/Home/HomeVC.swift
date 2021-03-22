@@ -4,12 +4,12 @@ class HomeVC: UIViewController {
     
     // MARK: Properties
     private let headerImageView = LSImageView(image: Asserts.header)
-    private let theoryButton = LSButton(title: "Theory", titleColor: .white)
-    private let videosButton = LSButton(title: "Videos", titleColor: .white)
-    private let testBookingButton = LSButton(title: "Test Bookings", titleColor: .white)
-    private let reviewsButton = LSButton(title: "Reviews", titleColor: .white)
-    private let showTellButton = LSButton(title: "Show Tell", titleColor: .white)
-    private let contactButton = LSButton(title: "Contact", titleColor: .white)
+    private let theoryButton = LSButton(title: Strings.theory, titleColor: .white)
+    private let videosButton = LSButton(title: Strings.videos, titleColor: .white)
+    private let testBookingButton = LSButton(title: Strings.testBookings, titleColor: .white)
+    private let reviewsButton = LSButton(title: Strings.reviews, titleColor: .white)
+    private let showTellButton = LSButton(title: Strings.showTell, titleColor: .white)
+    private let contactButton = LSButton(title: Strings.contacts, titleColor: .white)
     
     
     // MARK: View Controller
