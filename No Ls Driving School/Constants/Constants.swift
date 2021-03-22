@@ -31,6 +31,10 @@ struct Strings {
     // Home
     static let home = "Home"
     static let recommendedVideos = "Recommended Videos"
+    static let theory = "Theory"
+    static let videos = "Videos"
+    static let testBookings = "Test Bookings"
+    static let showTell = "Show Tell"
     
     // Reviews
     static let reviews = "Reviews"
