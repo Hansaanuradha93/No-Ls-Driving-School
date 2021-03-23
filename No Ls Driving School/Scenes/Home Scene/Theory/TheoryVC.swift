@@ -4,8 +4,8 @@ class TheoryVC: UIViewController {
     
     // MARK: Properties
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
-    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Theory Test", fontSize: 22)
-    private let contentLabel = LSLabel(text: "It's important that you prepare thoroughly for the theory test. That's why we've made Theory Test Pro available for free to all our pupils.", textColor: AppColor.darkGray, fontSize: 20, textAlignment: .center, numberOfLines: 0)
+    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: Strings.theoryTest, fontSize: 22)
+    private let contentLabel = LSLabel(text: Strings.theoryTestDescription, textColor: AppColor.darkGray, fontSize: 20, textAlignment: .center, numberOfLines: 0)
     private let theoryTestImage = LSImageView(image: Asserts.theoryTest, contentMode: .scaleAspectFit)
     
     
