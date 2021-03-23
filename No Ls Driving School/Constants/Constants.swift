@@ -35,12 +35,16 @@ struct Strings {
     static let videos = "Videos"
     static let testBookings = "Test Bookings"
     static let showTell = "Show Tell"
+    static let theoryTestDescription = "It's important that you prepare thoroughly for the theory test. That's why we've made Theory Test Pro available for free to all our pupils."
     
     // Reviews
     static let reviews = "Reviews"
     
     // Contacts
     static let contacts = "Contacts"
+    
+    // Buttons
+    static let theoryTest  = "Theory Test"
 }
 
 
