@@ -5,8 +5,8 @@ class TestBookingsVC: UIViewController {
     // MARK: Properties
     private let viewModel = TestBookingsVM()
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
-    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Test Bookings", fontSize: 22)
-    private let contentLabel = LSLabel(text: "Book or change your theory or practical test. Make sure you are ready for your test before you take it!", textColor: AppColor.darkGray, fontSize: 20, textAlignment: .center, numberOfLines: 0)
+    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: Strings.testBookings, fontSize: 22)
+    private let contentLabel = LSLabel(text: Strings.testBookingsDescription, textColor: AppColor.darkGray, fontSize: 20, textAlignment: .center, numberOfLines: 0)
     private let tableView = UITableView()
     
     
