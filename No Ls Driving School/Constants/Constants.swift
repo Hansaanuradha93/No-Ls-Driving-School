@@ -37,6 +37,9 @@ struct Strings {
     static let showTell = "Show Tell"
     static let theoryTestDescription = "It's important that you prepare thoroughly for the theory test. That's why we've made Theory Test Pro available for free to all our pupils."
     static let testBookingsDescription = "Book or change your theory or practical test. Make sure you are ready for your test before you take it!"
+    static let showMeTellMeQuestions = "Show Me Tell Me Questions"
+    static let showMe = "Show Me"
+    static let tellMe = "Tell Me"
     
     // Reviews
     static let reviews = "Reviews"
