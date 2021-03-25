@@ -4,7 +4,7 @@ class ContactsVC: UIViewController {
     
     // MARK: Properties
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
-    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Contact Us", fontSize: 22)
+    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: Strings.contactUs, fontSize: 22)
     private let contactFormImageView = LSImageView(image: Asserts.websiteContact, contentMode: .scaleAspectFit)
     private let mobileContactImageView = LSImageView(image: Asserts.mobileContact, contentMode: .scaleAspectFit)
     

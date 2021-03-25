@@ -47,6 +47,7 @@ struct Strings {
     
     // Contacts
     static let contacts = "Contacts"
+    static let contactUs = "Contact Us"
     
     // Buttons
     static let theoryTest  = "Theory Test"
