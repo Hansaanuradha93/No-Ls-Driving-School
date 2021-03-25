@@ -43,12 +43,14 @@ struct Strings {
     
     // Reviews
     static let reviews = "Reviews"
+    static let reviewsDescriptions = "We have loads of 5 star reviews on Google, Facebook and Free Index. We would love it if you were to leave a review too!"
     
     // Contacts
     static let contacts = "Contacts"
     
     // Buttons
     static let theoryTest  = "Theory Test"
+    static let leaveFreeIndexReview = "Leave a Free Index Review"
 }
 
 
