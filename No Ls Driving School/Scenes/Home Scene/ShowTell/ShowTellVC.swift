@@ -5,7 +5,7 @@ class ShowTellVC: UIViewController {
     // MARK: Properties
     private let viewModel = ShowTellVM()
     private let navHeaderImage = LSImageView(image: Asserts.navHeader, contentMode: .scaleAspectFit)
-    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: "Show Me Tell Me Questions", fontSize: 22)
+    private let titleButton = LSButton(backgroundColor: AppColor.lightGray, title: Strings.showMeTellMeQuestions, fontSize: 22)
     private let tableView = UITableView()
     
     
@@ -55,9 +55,9 @@ extension ShowTellVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = tableView.dequeueReusableHeaderFooterView(withIdentifier: HeaderView.reuseID) as! HeaderView
         if section == 0 {
-            view.set(title: "Show Me")
+            view.set(title: Strings.showMe)
         } else if section == 1 {
-            view.set(title: "Tell Me")
+            view.set(title: Strings.tellMe)
         } else {
             view.set(title: "")
         }
